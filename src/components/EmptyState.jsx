@@ -1,0 +1,2 @@
+import { CalendarX2 } from 'lucide-react'
+export default function EmptyState({title='Nothing here yet',text='Items will appear here when they are available.'}){return <div className="py-14 text-center"><div className="mx-auto mb-4 grid size-16 place-items-center rounded-full bg-brand-50 text-brand-600"><CalendarX2 size={28}/></div><h3>{title}</h3><p className="mt-1 text-sm text-slate-500">{text}</p></div>}
